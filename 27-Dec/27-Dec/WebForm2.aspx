@@ -1,10 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="_27_Dec.WebForm1" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="_27_Dec.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h1>Hi Dear</h1>
+   <h1>Hi Dear</h1>
             <p> Here we will use master page for the first time</p> <br /> <br />
 
     <section class="vh-100 bg-image"
@@ -119,7 +118,7 @@
                   <div class="pt-1 mb-4">
                      
                      
-                  <asp:Button ID="Button1"  class="btn btn-dark btn-lg btn-block"   ValidationGroup="g2" runat="server" Text="Login" OnClick="Button1_Click" />
+                  <asp:Button ID="Button1"  class="btn btn-dark btn-lg btn-block"   ValidationGroup="g2" runat="server" Text="Login" />
                       <asp:Button ID="Button2" runat="server" Text="clear"  class="btn btn-dark btn-lg btn-block" OnClick="Button2_Click" CausesValidation="False" />
                   </div>
 
@@ -133,6 +132,4 @@
       </div>
     </div>
   </div>
-</section>
-
-</asp:Content>
+</section></asp:Content>

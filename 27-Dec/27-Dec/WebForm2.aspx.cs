@@ -7,13 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace _27_Dec
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
         protected void Button2_Click(object sender, EventArgs e)
         {
             passbox2.Text = "";
@@ -22,7 +21,7 @@ namespace _27_Dec
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            name.Text= "";
+            name.Text = "";
             emailcheck.Text = "";
             pass1.Text = "";
             pass2.Text = "";
@@ -31,15 +30,9 @@ namespace _27_Dec
         protected void Button3_Click(object sender, EventArgs e)
         {
             ClientScript.RegisterClientScriptBlock(this.GetType(), "alert",
-                "swal('Good job!', 'You Regestered Successfully !', 'success')", true);
-        
+                "swal('Good job!', 'You clicked Success button!', 'success')", true);
 
-        }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            ClientScript.RegisterClientScriptBlock(this.GetType(), "alert",
-               "swal('Good job!', 'You Loged in!', 'success')", true);
         }
     }
 }
