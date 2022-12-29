@@ -51,8 +51,8 @@
                
 
                 <div class="d-flex justify-content-center">
-                 <asp:Button ID="Button3" runat="server" Text="Register" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" ValidationGroup="g1" OnClick="Button3_Click" /> 
-                    <asp:Button ID="Button4" runat="server" Text="Clear" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" CausesValidation="false" OnClick="Button4_Click" />
+                 <asp:Button ID="Button3" runat="server" Text="Register"  class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" ValidationGroup="g1" OnClick="Button3_Click" /> 
+                    <asp:Button ID="Button4" runat="server" Text="Clear"  class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" CausesValidation="false" OnClick="Button4_Click" UseSubmitBehavior="False" />
                 </div>
 
 
