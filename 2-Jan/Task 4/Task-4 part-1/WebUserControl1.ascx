@@ -7,11 +7,11 @@
         <asp:Label ID="Label1" runat="server" Text="مدى رضاك عن خدماتنا؟"></asp:Label>
 <br />
         <asp:RadioButtonList ID="vote" runat="server">
-            <asp:ListItem>ممتاز</asp:ListItem>
-            <asp:ListItem>جيد جدا</asp:ListItem>
-            <asp:ListItem>جيد</asp:ListItem>
-            <asp:ListItem>مقبول</asp:ListItem>
-            <asp:ListItem>ضعيف</asp:ListItem>
+            <asp:ListItem Value="A" >ممتاز</asp:ListItem>
+            <asp:ListItem Value="B">جيد جدا</asp:ListItem>
+            <asp:ListItem Value="C">جيد</asp:ListItem>
+            <asp:ListItem Value="D">مقبول</asp:ListItem>
+            <asp:ListItem Value="E">ضعيف</asp:ListItem>
         </asp:RadioButtonList>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="تصويت" />
 <br />
@@ -21,11 +21,11 @@
 
         <div id="showresult" runat="server">
 
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label2" runat="server" Text="label"></asp:Label> <br />
+            <asp:Label ID="Label3" runat="server" ></asp:Label><br />
+            <asp:Label ID="Label4" runat="server" ></asp:Label><br />
+            <asp:Label ID="Label5" runat="server" ></asp:Label><br />
+            <asp:Label ID="Label6" runat="server" ></asp:Label><br />
         </div>
     </ContentTemplate>
 </asp:UpdatePanel>
