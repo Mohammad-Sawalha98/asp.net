@@ -13,5 +13,19 @@ namespace practice
         {
 
         }
+
+        protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+
+            FileUpload f = GridView1.Rows[e.RowIndex].FindControl("FileUpload1") as FileUpload;
+
+            f.SaveAs(System.IO.Path.Combine(Server.MapPath("App_Data"), f.FileName));
+
+            SqlDataSource1.UpdateParameters["discription"].DefaultValue = "~/pic/" + f.FileName;
+
+            SqlDataSource1.Update();
+
+
+        }
     }
 }

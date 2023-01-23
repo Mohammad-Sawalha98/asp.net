@@ -5,18 +5,21 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\y\Desktop\iis</_PublishTargetUrl>
-    <History>True|2023-01-02T20:38:49.2696319Z;</History>
+    <History>True|2023-01-21T03:00:18.0413247Z;True|2023-01-02T12:38:49.2696319-08:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Data/FB_IMG_1570179790643.jpg">
+      <publishTime>01/11/2023 10:38:36</publishTime>
+    </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 17:10:50</publishTime>
     </File>
     <File Include="bin/practice.dll">
-      <publishTime>01/02/2023 12:38:48</publishTime>
+      <publishTime>01/20/2023 19:00:17</publishTime>
     </File>
     <File Include="bin/practice.pdb">
-      <publishTime>01/02/2023 12:38:48</publishTime>
+      <publishTime>01/20/2023 19:00:17</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 06:38:48</publishTime>
@@ -172,13 +175,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/02/2023 11:05:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/02/2023 12:38:48</publishTime>
+      <publishTime>01/20/2023 19:00:17</publishTime>
     </File>
     <File Include="WebForm1.aspx">
       <publishTime>01/02/2023 10:57:32</publishTime>
     </File>
     <File Include="welcome.aspx">
-      <publishTime>01/02/2023 11:04:14</publishTime>
+      <publishTime>01/11/2023 10:34:27</publishTime>
     </File>
   </ItemGroup>
 </Project>
