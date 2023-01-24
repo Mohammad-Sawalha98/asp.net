@@ -75,8 +75,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="edit.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\FB_IMG_1562494635792.jpg" />
+    <Content Include="img\FB_IMG_1570179790643.jpg" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -88,6 +90,7 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="Task1.aspx" />
+    <Content Include="Task2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +99,13 @@
     </Compile>
     <Compile Include="Customer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -122,6 +132,13 @@
     </Compile>
     <Compile Include="Task1.aspx.designer.cs">
       <DependentUpon>Task1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Task2.aspx.cs">
+      <DependentUpon>Task2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Task2.aspx.designer.cs">
+      <DependentUpon>Task2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
